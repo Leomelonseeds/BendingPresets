@@ -1,0 +1,19 @@
+name: BendingPresets
+version: 1.0
+main: com.leomelonseeds.bendingpresets.BendingPresets
+api-version: 1.19
+author: M310N
+description: Fully-fledged bending ability management plugin
+depend:
+  - ProjectKorra
+commands:
+  bendingpresets:
+    description: The core BendingPresets command
+    aliases:
+      - bp
+      - presets
+      - bending
+      - bend
+      - b
+permissions:
+  bendingpresets.menu: {}
