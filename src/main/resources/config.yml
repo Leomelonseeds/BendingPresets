@@ -1,0 +1,6 @@
+xp-per:
+  normal-damage: 1
+  normal-harmless: 1
+  combo-damage: 5
+  combo-harmless: 5
+default-skillpoints: 10

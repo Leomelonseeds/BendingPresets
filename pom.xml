@@ -73,5 +73,12 @@
 		    <artifactId>ProjectKorra</artifactId>
 		    <version>1.10.2</version>
 		</dependency>
+		<!-- Aurelium Skills -->
+		<dependency>
+		    <groupId>com.github.Archy-X</groupId>
+		    <artifactId>AureliumSkills</artifactId>
+		    <version>Beta1.3.11</version>
+		    <scope>provided</scope>
+		</dependency>
     </dependencies>
 </project>
