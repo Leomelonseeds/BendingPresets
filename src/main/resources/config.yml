@@ -1,6 +1,38 @@
+# Aurelium Skills
 xp-per:
   normal-damage: 1
   normal-harmless: 1
   combo-damage: 5
   combo-harmless: 5
+  
+# Default skillpoints for each player
 default-skillpoints: 10
+
+# Default extra levels to add to each ability.
+# Note that levels start at 2. For each level, specify:
+# multiplier: the amount to multiply ability stats by compared to base level
+# spcost: the cost in skillpoints to upgrade to this level from the previous level
+default-levels:
+  2:
+    multiplier: 2
+    spcost: 1
+  3:
+    multiplier: 3
+    spcost: 1
+    
+# Override level and multiplier for specific abilities.
+# For each override, make sure both multiplier and spcost are included.
+ability-overrides:
+  # Not upgradable
+  exampleAbility: {}
+  # Has extra level
+  exampleAbility2:
+    2:
+      multiplier: 1.5
+      spcost: 1
+    3:
+      multiplier: 2
+      spcost: 1
+    4:
+      multiplier: 2.5
+      spcost: 2
